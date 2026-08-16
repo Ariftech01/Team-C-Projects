@@ -1,4 +1,4 @@
-# Construction Intelligence Hub (CIH)
+# Agentic Al for Safety Monitoring with Construction Risk Analytics
 
 **Enterprise Construction Management Platform**
 
