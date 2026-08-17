@@ -1,0 +1,22 @@
+# Python and Streamlit runtime files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Local application data and credentials - never commit
+/data/credentials.json
+/data/email_settings.json
+/data/db.json
+/data/db.demo-backup.json
+/data/notifications.json
+/data/uploads/report_*.pdf
+data/uploads/*
+
+# OS/editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
