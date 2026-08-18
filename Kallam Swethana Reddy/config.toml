@@ -1,0 +1,16 @@
+[theme]
+# Defining a single [theme] table (instead of separate [theme.light] /
+# [theme.dark] tables) locks the app to one "Custom Theme". This removes
+# the Dark and "Use system setting" options from the theme selector,
+# since there is no alternate theme to switch to.
+base = "light"
+primaryColor = "#2563EB"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F4F6"
+textColor = "#111827"
+borderColor = "#E5E7EB"
+font = "sans-serif"
+
+[client]
+# Keep the toolbar minimal so only relevant options are shown.
+toolbarMode = "minimal"
