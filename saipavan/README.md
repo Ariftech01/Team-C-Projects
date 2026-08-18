@@ -129,8 +129,3 @@ Rationale: at this project's current scale, one clearly-sectioned file (CSS → 
 - Containerized deployment
 - Mobile-optimized layout
 
----
-
-## License
-
-Add your license of choice here (e.g. MIT).
