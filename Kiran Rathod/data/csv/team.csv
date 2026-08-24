@@ -1,0 +1,11 @@
+id,name,role,category,email,phone,assignedProject,status,accessLevel
+tm-1,Alex Sterling,Project Director,Management,alex.sterling@cih-hub.com,+91 98765 43210,Delhi Metro - Phase 4,Active,Admin
+tm-2,Vikram Sharma,Senior Site Engineer,Engineering,vikram.sharma@cih-hub.com,+91 98123 45678,Mumbai Trans Harbour Link,Active,Engineer
+tm-3,Pooja Deshmukh,Safety & OSHA Auditor,Inspection,pooja.deshmukh@cih-hub.com,+91 97654 32109,Indore Smart City Hub,Active,Auditor
+tm-4,Ananya Mishra,Logistics & Supply Director,Logistics,ananya.mishra@cih-hub.com,+91 96543 21098,International Terminal Exp.,Active,Manager
+tm-5,Rajesh Kumar,Structural Concrete Specialist,Engineering,rajesh.kumar@cih-hub.com,+91 95432 10987,Delhi Metro - Phase 4,Active,Engineer
+tm-6,Siddharth Mehta,High-Speed Rail Specialist,Engineering,siddharth.mehta@cih-hub.com,+91 94321 09876,Ahmedabad High Speed Bullet Rail,Active,Engineer
+tm-7,Kavita Reddy,Geotechnical Risk Lead,Geotechnical,kavita.reddy@cih-hub.com,+91 93210 98765,Chenab Railway Bridge Corridor,Active,Lead
+tm-8,Arjun Nair,Aviation Infrastructure Lead,Management,arjun.nair@cih-hub.com,+91 92109 87654,Navi Mumbai International Airport,Active,Manager
+tm-9,Meera Banerjee,Tunnel Hydro-Geologist,Geotechnical,meera.banerjee@cih-hub.com,+91 91098 76543,Kolkata Underwater Metro Tunnel,Active,Engineer
+tm-10,Karthik Subramanian,Highway & Pavement Specialist,Engineering,karthik.s@cih-hub.com,+91 90987 65432,Chennai Coastal Expressway Ph-2,Active,Engineer

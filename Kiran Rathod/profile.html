@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIH | User Profile & Account Settings</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏗️</text></svg>">
+</head>
+<body style="background: #F8FAFC; margin: 0; padding: 0;">
+
+    <div class="dash-app">
+        <!-- TOP GLOBAL HEADER -->   
+        <header class="dash-header">
+            <div class="dash-header-left">
+                <a href="index.html" class="logo" title="Back to Landing Page">
+                    <span class="logo-dot"></span> CIH
+                </a>
+                <div class="dash-search-container">
+                    <span class="dash-search-icon">🔍</span>
+                    <input type="text" class="dash-search-input" placeholder="Search profile settings, account logs, or credentials...">
+                </div>
+            </div>
+
+            <div class="dash-header-right">
+                <button class="icon-btn" title="Toggle Light/Dark Theme">☀️</button>
+                <div style="position: relative;">
+                    <button class="icon-btn" title="Notifications">🔔</button>
+                    <span style="position: absolute; top: 2px; right: 2px; width: 8px; height: 8px; background: #EF4444; border-radius: 50%; border: 2px solid #FFF;"></span>
+                </div>
+                <div class="dash-user-profile" onclick="window.location.href='profile.html'" style="cursor: pointer;" title="View User Profile & Account Settings">
+                    <div>
+                        <div class="dash-user-name">Alex Sterling</div>
+                        <div class="dash-user-role">Project Director</div>
+                    </div>
+                    <div class="dash-user-avatar">AS</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- LEFT SIDEBAR -->
+        <aside class="dash-sidebar">
+            <ul class="dash-menu">
+                <li><a href="dashboard.html" class="dash-menu-item">📊 Dashboard</a></li>
+                <li><a href="project-management.html" class="dash-menu-item">🏗️ Project Management</a></li>
+                <li><a href="team-management.html" class="dash-menu-item">👥 Team Management</a></li>
+                <li><a href="budget.html" class="dash-menu-item">💵 Budget</a></li>
+                <li><a href="materials.html" class="dash-menu-item">📦 Materials</a></li>
+                <li><a href="risk-analysis.html" class="dash-menu-item">⚠️ Risk Analysis</a></li>
+                <li><a href="reports.html" class="dash-menu-item">📊 Reports</a></li>
+                <li><a href="ai-insights.html" class="dash-menu-item">🤖 AI Insights</a></li>
+            </ul>
+        </aside>
+
+        <!-- MAIN PROFILE CONTENT -->
+        <main class="dash-main">
+            <div class="dash-top-title-row" style="margin-bottom: 24px;">
+                <div>
+                    <h1 class="dash-page-title">👤 User Profile & Account Settings</h1>
+                    <p class="dash-page-sub">Manage your project director credentials, account details, and profile photo avatar.</p>
+                </div>
+            </div>
+
+            <!-- STATUS ALERT BADGE -->
+            <div id="profileStatusAlert" style="display: none; background: #DCFCE7; color: #15803D; border: 1px solid #86EFAC; border-radius: 8px; padding: 14px 20px; font-weight: 700; font-size: 14px; margin-bottom: 24px;">
+                ✅ Profile details updated successfully!
+            </div>
+
+            <!-- PROFILE PHOTO & AVATAR MANAGEMENT CARD -->
+            <div class="analytics-container" style="margin-bottom: 28px; background: #FFFFFF; border-radius: 14px; padding: 28px; border: 1px solid #E2E8F0; box-shadow: 0 4px 16px rgba(0,0,0,0.03);">
+                <h2 style="font-size: 18px; font-weight: 800; color: #0F172A; margin: 0 0 18px 0;">📸 Profile Photo Avatar</h2>
+
+                <div style="display: flex; align-items: center; gap: 28px; flex-wrap: wrap;">
+                    <!-- AVATAR PREVIEW BOX -->
+                    <div id="profileAvatarPreviewBox" style="width: 110px; height: 110px; border-radius: 50%; overflow: hidden; border: 3px solid #3B82F6; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2); display: flex; align-items: center; justify-content: center; background: #EEF2FF; position: relative;">
+                        <!-- Rendered dynamically by syncGlobalProfileUI() -->
+                        <div id="profileAvatarFallback" style="font-size: 36px; font-weight: 900; color: #1D4ED8;">AS</div>
+                        <img id="profileAvatarImage" src="" alt="User Profile Photo" style="width: 100%; height: 100%; object-fit: cover; display: none;">
+                    </div>
+
+                    <!-- ACTION BUTTONS -->
+                    <div style="display: flex; flex-direction: column; gap: 10px;">
+                        <div style="display: flex; gap: 12px; align-items: center;">
+                            <label class="btn-primary" style="padding: 10px 20px; font-size: 13.5px; cursor: pointer; border-radius: 8px; display: inline-flex; align-items: center; gap: 8px; font-weight: 700;">
+                                📤 Upload Profile Photo
+                                <input type="file" id="profilePhotoFileInput" accept="image/*" style="display: none;" onchange="handleProfilePhotoUpload(event)">
+                            </label>
+
+                            <button class="kpi-btn-secondary" onclick="handleDeleteProfilePhoto()" style="background: #FEE2E2; color: #DC2626; border-color: #FCA5A5; padding: 10px 20px; font-size: 13.5px; border-radius: 8px; font-weight: 700;">
+                                🗑️ Delete Photo
+                            </button>
+                        </div>
+
+                        <div style="font-size: 12px; color: #64748B;">
+                            Supported formats: <strong>JPG, PNG, WebP, GIF</strong> (Max file size 5MB). Photo updates automatically across all pages.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PERSONAL & ACCOUNT DETAILS FORM CARD -->
+            <div class="analytics-container" style="background: #FFFFFF; border-radius: 14px; padding: 28px; border: 1px solid #E2E8F0; box-shadow: 0 4px 16px rgba(0,0,0,0.03); margin-bottom: 28px;">
+                <h2 style="font-size: 18px; font-weight: 800; color: #0F172A; margin: 0 0 20px 0;">📝 Personal & Professional Details</h2>
+
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 24px;">
+                    <div>
+                        <label class="form-label" style="font-weight: 700;">Full Name *</label>
+                        <input type="text" class="form-input" id="profileInputName" value="Alex Sterling" placeholder="e.g. Alex Sterling">
+                    </div>
+
+                    <div>
+                        <label class="form-label" style="font-weight: 700;">Job Title / Role *</label>
+                        <input type="text" class="form-input" id="profileInputRole" value="Project Director" placeholder="e.g. Project Director">
+                    </div>
+
+                    <div>
+                        <label class="form-label" style="font-weight: 700;">Email Address *</label>
+                        <input type="email" class="form-input" id="profileInputEmail" value="alex.sterling@cih-hub.com" placeholder="e.g. alex.sterling@cih-hub.com">
+                    </div>
+
+                    <div>
+                        <label class="form-label" style="font-weight: 700;">Phone Number *</label>
+                        <input type="text" class="form-input" id="profileInputPhone" value="+91 98765 43210" placeholder="e.g. +91 98765 43210">
+                    </div>
+
+                    <div>
+                        <label class="form-label" style="font-weight: 700;">Location Headquarters *</label>
+                        <input type="text" class="form-input" id="profileInputLocation" value="Delhi NCR Site Headquarters" placeholder="e.g. Delhi NCR Site Headquarters">
+                    </div>
+
+                    <div>
+                        <label class="form-label" style="font-weight: 700;">System Access Level</label>
+                        <input type="text" class="form-input" value="Administrator (Full Access)" readonly style="background: #F1F5F9; color: #475569; font-weight: 700;">
+                    </div>
+                </div>
+
+                <div style="display: flex; justify-content: flex-end;">
+                    <button class="btn-primary" onclick="handleSaveProfileDetails()" style="padding: 12px 28px; font-size: 14px; font-weight: 700; border-radius: 8px; background: #2563EB;">
+                        💾 Save Profile Changes
+                    </button>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- DASHBOARD FOOTER -->
+        <footer class="dash-footer">
+            <div>CIH Platform &copy; 2026 Construction Intelligent Hub. All Rights Reserved.</div>
+            <div style="display: flex; gap: 20px;">
+                <a href="#" style="color: #64748B; text-decoration: none;">Support</a>
+                <a href="#" style="color: #64748B; text-decoration: none;">Privacy Policy</a>
+                <a href="#" style="color: #64748B; text-decoration: none;">Terms of Service</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- GLOBAL FLOATING AI CHATBOT WIDGET -->
+    <button class="cih-floating-widget-btn" onclick="toggleAIChat()" title="Open Local AI Chatbot (Llama 3.2)">🤖</button>
+    <div class="cih-chat-window" id="cihFloatingChatWindow" style="display: none;">
+        <div class="cih-chat-header">
+            <div>
+                <div class="cih-chat-header-title">🤖 CIH AI Assistant</div>
+                <div class="cih-chat-header-sub">Powered by Llama 3.2 (Offline Engine)</div>
+            </div>
+            <button style="background: none; border: none; color: #FFF; font-size: 18px; cursor: pointer;" onclick="toggleAIChat()">✕</button>
+        </div>
+        <div class="cih-chat-body" id="cihFloatingChatBody">
+            <div class="chat-bubble chat-bubble-ai">
+                Hello! I am your local AI assistant running offline via **Llama 3.2**. Ask me any question about your active construction projects, budget risks, or material stock!
+            </div>
+        </div>
+        <div class="cih-chat-footer">
+            <input type="text" class="cih-chat-input" id="cihFloatingChatInput" placeholder="Ask AI assistant..." onkeypress="if(event.key==='Enter') sendFloatingChatMessage()">
+            <button class="cih-chat-send" onclick="sendFloatingChatMessage()">Send</button>
+        </div>
+    </div>
+
+    <!-- AI MODULE SCRIPTS -->
+    <script src="ai/config.js?v=21.0"></script>
+    <script src="ai/ollama_client.js?v=30.0"></script>
+    <script src="ai/prompt_manager.js?v=30.0"></script>
+    <script src="ai/utils.js?v=21.0"></script>
+    <script src="ai/ai_service.js?v=30.0"></script>
+
+    <!-- APP CORE SCRIPTS -->
+    <script src="js/data.js?v=30.0"></script>
+    <script src="js/main.js?v=30.0"></script>
+</body>
+</html>

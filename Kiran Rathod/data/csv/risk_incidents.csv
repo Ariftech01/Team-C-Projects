@@ -1,0 +1,11 @@
+incident_id,project_name,risk_category,risk_level,description,predicted_delay_days,impact_cost_crores,mitigation_status,detection_timestamp
+RSK-901,Indore Smart City Hub,Material Shortage,High,Critical rebar bundle stock below safety threshold (350 tons vs 500 tons min).,12,14.5,Procurement Expedited,2026-07-26 14:30:00
+RSK-902,Hyderabad Outer Ring Supergrid,Equipment Breakdown,High,Tandem Roller engine health at 81% with severe hydraulic pressure drops.,18,22.0,Maintenance Scheduled,2026-07-25 09:15:00
+RSK-903,Mumbai Trans Harbour Link,Weather & Monsoon Surge,Medium,High tide and coastal wind gusts exceeding 45 knots near Pier 14.,4,5.2,Crane Work Paused,2026-07-24 16:45:00
+RSK-904,Delhi Metro - Phase 4,Air Quality Cutoff,Low,AQI spike requiring dust suppression spray activation across Zone 3.,1,0.8,Water Sprinklers Active,2026-07-23 11:20:00
+RSK-905,Ahmedabad High Speed Bullet Rail,Right of Way Land Access,Medium,Minor delay in utility pole relocation along Sector 4 alignment.,6,8.0,Municipal Clearance Pending,2026-07-22 13:10:00
+RSK-906,Chenab Railway Bridge Corridor,Thermal Expansion Stress,Medium,Arch joint thermal variance detected by optical fiber strain sensors.,3,3.5,Joint Lock Re-calibrated,2026-07-21 08:50:00
+RSK-907,Navi Mumbai International Airport,Subgrade Soil Saturation,Low,Rainwater retention near taxiway sub-base requiring additional pumping.,2,1.2,Dewatering Pumps Operating,2026-07-20 17:00:00
+RSK-908,Kolkata Underwater Metro Tunnel,Micro-Seepage Variance,Low,Hooghly riverbed pressure sensor shows minor moisture gradient increase.,0,0.0,Grouting Verified Safe,2026-07-19 10:05:00
+RSK-909,International Terminal Exp.,Customs Delay on Glass,Low,Second shipment of facade glass panels delayed at port terminal by 48 hrs.,2,2.1,Customs Cleared,2026-07-18 15:40:00
+RSK-910,Chennai Coastal Expressway Ph-2,Bitumen Delivery Bottleneck,Low,Tanker truck convoy delayed due to coastal highway traffic maintenance.,1,0.5,Rerouted via Bypass,2026-07-17 07:30:00

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "MAT-INV-01",
+    "name": "Structural Steel Beams (Grade A572)",
+    "category": "Steel & Rebar",
+    "rfidTag": "RFID-ST-402",
+    "stockQuantity": "4200 Tons",
+    "reorderLevel": "1000 Tons",
+    "status": "In Stock",
+    "assignedProject": "Delhi Metro - Phase 4",
+    "supplier": "Jindal Steel & Power",
+    "utilizationPercent": 78
+  },
+  {
+    "id": "MAT-INV-02",
+    "name": "High-Tensile Rebar Bundles (#25)",
+    "category": "Steel & Rebar",
+    "rfidTag": "RFID-RB-108",
+    "stockQuantity": "2100 Tons",
+    "reorderLevel": "500 Tons",
+    "status": "In Stock",
+    "assignedProject": "Delhi Metro - Phase 4",
+    "supplier": "Tata Steel",
+    "utilizationPercent": 82
+  },
+  {
+    "id": "MAT-INV-03",
+    "name": "Tunnel Segment Concrete Rings",
+    "category": "Concrete",
+    "rfidTag": "RFID-CR-901",
+    "stockQuantity": "1450 Rings",
+    "reorderLevel": "300 Rings",
+    "status": "In Stock",
+    "assignedProject": "Delhi Metro - Phase 4",
+    "supplier": "L&T Construction",
+    "utilizationPercent": 90
+  },
+  {
+    "id": "MAT-INV-04",
+    "name": "Ready-Mix Concrete (Batch C50 Marine)",
+    "category": "Concrete",
+    "rfidTag": "RFID-RC-881",
+    "stockQuantity": "12500 cu m",
+    "reorderLevel": "3000 cu m",
+    "status": "In Stock",
+    "assignedProject": "Mumbai Trans Harbour Link",
+    "supplier": "UltraTech Concrete",
+    "utilizationPercent": 85
+  },
+  {
+    "id": "MAT-INV-05",
+    "name": "Anti-Corrosive Epoxy Steel Strands",
+    "category": "Steel & Rebar",
+    "rfidTag": "RFID-ES-204",
+    "stockQuantity": "3800 Tons",
+    "reorderLevel": "800 Tons",
+    "status": "In Stock",
+    "assignedProject": "Mumbai Trans Harbour Link",
+    "supplier": "JSW Steel",
+    "utilizationPercent": 74
+  },
+  {
+    "id": "MAT-INV-06",
+    "name": "High-Tensile Rebar Bundles (#22)",
+    "category": "Steel & Rebar",
+    "rfidTag": "RFID-RB-109",
+    "stockQuantity": "350 Tons",
+    "reorderLevel": "500 Tons",
+    "status": "Low Stock",
+    "assignedProject": "Indore Smart City Hub",
+    "supplier": "Tata Steel",
+    "utilizationPercent": 92
+  },
+  {
+    "id": "MAT-INV-07",
+    "name": "Portland Pozzolana Cement Bags",
+    "category": "Cement",
+    "rfidTag": "RFID-CM-330",
+    "stockQuantity": "450 Bags",
+    "reorderLevel": "1000 Bags",
+    "status": "Low Stock",
+    "assignedProject": "Indore Smart City Hub",
+    "supplier": "Ambuja Cement",
+    "utilizationPercent": 95
+  },
+  {
+    "id": "MAT-INV-08",
+    "name": "Double-Pane Facade Glass Panels",
+    "category": "Glazing & Finishing",
+    "rfidTag": "RFID-GL-552",
+    "stockQuantity": "1800 Panels",
+    "reorderLevel": "400 Panels",
+    "status": "In Stock",
+    "assignedProject": "International Terminal Exp.",
+    "supplier": "Saint-Gobain",
+    "utilizationPercent": 64
+  },
+  {
+    "id": "MAT-INV-09",
+    "name": "Structural Aluminum Truss Columns",
+    "category": "Steel & Rebar",
+    "rfidTag": "RFID-AL-882",
+    "stockQuantity": "620 Units",
+    "reorderLevel": "150 Units",
+    "status": "In Stock",
+    "assignedProject": "International Terminal Exp.",
+    "supplier": "Hindalco Industries",
+    "utilizationPercent": 71
+  },
+  {
+    "id": "MAT-INV-10",
+    "name": "High-Grade Bitumen Asphalt (VG-40)",
+    "category": "Paving",
+    "rfidTag": "RFID-BT-603",
+    "stockQuantity": "1200 Drums",
+    "reorderLevel": "300 Drums",
+    "status": "In Stock",
+    "assignedProject": "Chennai Coastal Expressway Ph-2",
+    "supplier": "Indian Oil Corporation",
+    "utilizationPercent": 60
+  }
+]

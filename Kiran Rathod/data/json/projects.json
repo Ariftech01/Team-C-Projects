@@ -1,0 +1,122 @@
+[
+  {
+    "id": "PROJ-101",
+    "title": "Delhi Metro - Phase 4",
+    "city": "New Delhi, India",
+    "status": "On Track",
+    "budget_crores": 4200,
+    "formatted_budget": "₹4,200 Cr",
+    "deadline": "2025-10-24",
+    "progress_percent": 68,
+    "total_team_count": 15,
+    "risk_level": "Low"
+  },
+  {
+    "id": "PROJ-102",
+    "title": "Mumbai Trans Harbour Link",
+    "city": "Mumbai, India",
+    "status": "In Review",
+    "budget_crores": 18000,
+    "formatted_budget": "₹18,000 Cr",
+    "deadline": "2024-12-15",
+    "progress_percent": 92,
+    "total_team_count": 10,
+    "risk_level": "Medium"
+  },
+  {
+    "id": "PROJ-103",
+    "title": "Indore Smart City Hub",
+    "city": "Indore, India",
+    "status": "Delayed",
+    "budget_crores": 850,
+    "formatted_budget": "₹850 Cr",
+    "deadline": "2026-01-10",
+    "progress_percent": 35,
+    "total_team_count": 6,
+    "risk_level": "High"
+  },
+  {
+    "id": "PROJ-104",
+    "title": "International Terminal Exp.",
+    "city": "Bangalore, India",
+    "status": "On Track",
+    "budget_crores": 12400,
+    "formatted_budget": "₹12,400 Cr",
+    "deadline": "2025-08-30",
+    "progress_percent": 52,
+    "total_team_count": 26,
+    "risk_level": "Low"
+  },
+  {
+    "id": "PROJ-105",
+    "title": "Ahmedabad High Speed Bullet Rail",
+    "city": "Surat, India",
+    "status": "On Track",
+    "budget_crores": 24500,
+    "formatted_budget": "₹24,500 Cr",
+    "deadline": "2027-03-15",
+    "progress_percent": 41,
+    "total_team_count": 32,
+    "risk_level": "Medium"
+  },
+  {
+    "id": "PROJ-106",
+    "title": "Chenab Railway Bridge Corridor",
+    "city": "Reasi, Jammu & Kashmir",
+    "status": "In Review",
+    "budget_crores": 1480,
+    "formatted_budget": "₹1,480 Cr",
+    "deadline": "2024-11-30",
+    "progress_percent": 88,
+    "total_team_count": 18,
+    "risk_level": "Medium"
+  },
+  {
+    "id": "PROJ-107",
+    "title": "Navi Mumbai International Airport",
+    "city": "Navi Mumbai, India",
+    "status": "On Track",
+    "budget_crores": 16700,
+    "formatted_budget": "₹16,700 Cr",
+    "deadline": "2025-12-31",
+    "progress_percent": 60,
+    "total_team_count": 40,
+    "risk_level": "Low"
+  },
+  {
+    "id": "PROJ-108",
+    "title": "Hyderabad Outer Ring Supergrid",
+    "city": "Hyderabad, India",
+    "status": "Delayed",
+    "budget_crores": 3200,
+    "formatted_budget": "₹3,200 Cr",
+    "deadline": "2026-06-20",
+    "progress_percent": 29,
+    "total_team_count": 12,
+    "risk_level": "High"
+  },
+  {
+    "id": "PROJ-109",
+    "title": "Kolkata Underwater Metro Tunnel",
+    "city": "Kolkata, India",
+    "status": "On Track",
+    "budget_crores": 8600,
+    "formatted_budget": "₹8,600 Cr",
+    "deadline": "2025-05-15",
+    "progress_percent": 77,
+    "total_team_count": 22,
+    "risk_level": "Low"
+  },
+  {
+    "id": "PROJ-110",
+    "title": "Chennai Coastal Expressway Ph-2",
+    "city": "Chennai, India",
+    "status": "On Track",
+    "budget_crores": 5100,
+    "formatted_budget": "₹5,100 Cr",
+    "deadline": "2026-09-10",
+    "progress_percent": 45,
+    "total_team_count": 14,
+    "risk_level": "Low"
+  }
+]

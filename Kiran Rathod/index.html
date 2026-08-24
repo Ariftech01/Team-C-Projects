@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIH | Construction Intelligent Hub</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏗️</text></svg>">
+</head>
+<body>
+
+    <div class="container">
+        <!-- HEADER / NAVIGATION BAR -->
+        <div class="navbar-wrapper">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <span class="logo-dot"></span> CIH
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#solutions" class="nav-link">Solutions</a></li>
+                    <li><a href="#resources" class="nav-link">Resources</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="icon-btn" title="Toggle Light/Dark Theme">☀️</button>
+                    <button class="icon-btn" title="Notifications">🔔</button>
+                    <button class="icon-btn" title="Language / Region">🌐</button>
+                    <a href="dashboard.html" class="login-btn">Log In</a>
+                </div>
+            </nav>
+        </div>
+
+        <!-- HERO SECTION -->
+        <section class="hero-section" id="home">
+            <div>
+                <div class="hero-badge">
+                    ⚡ THE FUTURE OF INFRASTRUCTURE
+                </div>
+                <h1 class="hero-title">
+                    Build Smarter<br/><span class="blue-italic">with AI</span>
+                </h1>
+                <p class="hero-desc">
+                    The Enterprise Construction Intelligence Hub (CIH) leverages advanced predictive analytics and AI to optimize site logistics, reduce material waste, and mitigate project risk before ground is even broken.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn-primary" onclick="openModal('demoModal'); return false;">Get Started</a>
+                    <a href="#" class="btn-secondary" onclick="openModal('demoModal'); return false;">▶ Watch Demo</a>
+                </div>
+            </div>
+
+            <div>
+                <div class="hero-card-frame">
+                    <div class="hero-tag-top">PROJ-PANORAMIC-AI</div>
+                    <img src="assets/hero_ai.png" class="hero-img" alt="Construction AI Site Telemetry" />
+                    <div class="hero-stat-badge">
+                        <div>
+                            <div class="stat-label-sm">Efficiency Gain</div>
+                            <div class="stat-val-lg">+24% <span class="stat-green">📈</span></div>
+                        </div>
+                        <div style="font-size: 11px; color: #64748B; text-align: right;">
+                            <strong>Site AI Telemetry</strong><br/>Predictive Sync Active
+                        </div>
+                    </div>
+                    <div class="hero-orb" title="AI Assistant" onclick="openModal('riskModal')">💬</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- KEY STATS BAR -->
+        <section class="stats-bar" id="landingStatsBar">
+            <div>
+                <div class="stat-number">$12B+</div>
+                <div class="stat-desc-label">PROJECTS MANAGED</div>
+            </div>
+            <div>
+                <div class="stat-number">35%</div>
+                <div class="stat-desc-label">AVG. WASTE REDUCTION</div>
+            </div>
+            <div>
+                <div class="stat-number">500+</div>
+                <div class="stat-desc-label">ACTIVE JOB SITES</div>
+            </div>
+            <div>
+                <div class="stat-number">150%</div>
+                <div class="stat-desc-label">RETURN ON INVESTMENT</div>
+            </div>
+        </section>
+
+        <!-- POWERFUL AI MODULES SECTION -->
+        <section id="solutions">
+            <div class="section-header">
+                <h2 class="section-title">Powerful AI Modules</h2>
+                <p class="section-subtitle">
+                    A comprehensive suite of intelligence tools designed specifically for the complexities of modern construction management.
+                </p>
+            </div>
+
+            <div class="modules-grid">
+                <!-- Card 1: AI Cost Estimation -->
+                <div class="module-card" onclick="openModal('costModal')">
+                    <div>
+                        <div class="icon-box">📊</div>
+                        <h3 class="card-heading">AI Cost Estimation</h3>
+                        <p class="card-text">
+                            Predict budget overruns with 98% accuracy using historical data and real-time fluctuations of raw materials.
+                        </p>
+                    </div>
+                    <div class="chart-visual">
+                        <div class="chart-bar" style="height: 35%;"></div>
+                        <div class="chart-bar" style="height: 55%;"></div>
+                        <div class="chart-bar active" style="height: 42%;"></div>
+                        <div class="chart-bar gradient" style="height: 92%;"></div>
+                        <div class="chart-bar" style="height: 48%;"></div>
+                        <div class="chart-bar active" style="height: 75%;"></div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Material Tracking -->
+                <div class="module-card" onclick="openModal('materialModal')">
+                    <div>
+                        <div class="icon-box">📦</div>
+                        <h3 class="card-heading">Material Tracking</h3>
+                        <p class="card-text">
+                            Live RFID & Computer Vision tracking for every parcel on-site. Eliminate supply chain bottlenecks in real-time.
+                        </p>
+                    </div>
+                    <div style="background: #F8FAFC; border-radius: 12px; padding: 12px 16px; border: 1px dashed #CBD5E1; font-size: 12px; color: #475569; display: flex; justify-content: space-between; align-items: center;">
+                        <span>📡 RFID Sensor Gate #4</span>
+                        <span style="color: #10B981; font-weight: 700;">● LIVE STREAM</span>
+                    </div>
+                </div>
+
+                <!-- Card 3: Risk Prediction (Dark Theme) -->
+                <div class="module-card dark-theme" onclick="openModal('riskModal')">
+                    <div>
+                        <div class="icon-box red-theme">⚠️</div>
+                        <h3 class="card-heading">Risk Prediction</h3>
+                        <p class="card-text">
+                            Automated safety, audit and delay forecasting using neural networks trained on 10,000+ site incident logs.
+                        </p>
+                    </div>
+                    <div class="dark-status-bar">
+                        <span>Status: <strong>Monitoring</strong></span>
+                        <span class="status-green">✓ All Clear</span>
+                    </div>
+                </div>
+
+                <!-- Card 4: Equipment Intelligence Wide Card -->
+                <div class="equipment-wide-card" onclick="openModal('equipModal')">
+                    <div class="equip-text-side">
+                        <div>
+                            <div class="icon-box">🚜</div>
+                            <h3 class="card-heading" style="font-size: 19px;">Equipment Intelligence</h3>
+                            <p class="card-text" style="font-size: 13px; margin-bottom: 12px;">
+                                Predictive maintenance schedules for heavy machinery based on engine telemetry and operator usage patterns.
+                            </p>
+                        </div>
+                        <div class="arrow-link">
+                            Explore Analytics &rarr;
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/equipment.png" class="equip-img-side" alt="Equipment Telemetry Analytics" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY CIH SECTION -->
+        <section class="why-container" id="resources">
+            <div>
+                <h2 class="section-title" style="font-size: 42px; text-align: left; margin-bottom: 28px;">Why CIH?</h2>
+                <div class="why-feature-list">
+                    <div class="why-feature-item">
+                        <div class="why-icon-bubble">🕒</div>
+                        <div>
+                            <div class="why-item-heading">Save Substantial Time</div>
+                            <div class="why-item-text">
+                                Automate scheduling and reporting, freeing up your team to focus on quality and safety rather than paperwork.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why-feature-item">
+                        <div class="why-icon-bubble">📉</div>
+                        <div>
+                            <div class="why-item-heading">Reduce Operational Cost</div>
+                            <div class="why-item-text">
+                                Minimize material over-orders and machinery downtime through data-driven procurement and maintenance.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why-feature-item">
+                        <div class="why-icon-bubble">🏗️</div>
+                        <div>
+                            <div class="why-item-heading">Precision Planning</div>
+                            <div class="why-item-text">
+                                Run thousands of "What-If" scenarios to identify the most efficient sequence for project completion.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="why-image-card">
+                    <img src="assets/skyscraper.png" class="why-img" alt="Modern Skyscraper Construction" />
+                    <div class="ranking-float-badge">
+                        <div class="ranking-tag-head">🏆 Platform Ranking</div>
+                        <div class="ranking-tag-body">#1 Enterprise Construction AI Platform 2024</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CALL TO ACTION BANNER -->
+        <section class="cta-box" id="pricing">
+            <h2 class="cta-heading">Ready to Lead the Industry?</h2>
+            <p class="cta-subheading">
+                Join the world's most innovative construction firms using CIH to deliver projects faster, safer, and more profitably.
+            </p>
+            <div class="cta-btn-group">
+                <a href="#" class="cta-white-btn" onclick="openModal('demoModal'); return false;">Request Enterprise Demo</a>
+                <a href="#" class="cta-outline-btn" onclick="openModal('salesModal'); return false;">Contact Sales</a>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer-section">
+            <div class="footer-columns">
+                <div>
+                    <a href="#" class="logo" style="margin-bottom: 14px; display: inline-flex;">
+                        <span class="logo-dot"></span> CIH
+                    </a>
+                    <p style="font-size: 13px; color: #64748B; line-height: 1.6; max-width: 300px;">
+                        Defining the intersection of physical infrastructure and artificial intelligence: enterprise-grade tools for global builders.
+                    </p>
+                </div>
+                <div>
+                    <div class="footer-head">Product</div>
+                    <ul class="footer-nav">
+                        <li><a href="#" onclick="openModal('costModal'); return false;">AI Estimator</a></li>
+                        <li><a href="#" onclick="openModal('riskModal'); return false;">Risk Analytics</a></li>
+                        <li><a href="#" onclick="openModal('materialModal'); return false;">Site Monitoring</a></li>
+                        <li><a href="#" onclick="openModal('equipModal'); return false;">Integrations</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-head">Company</div>
+                    <ul class="footer-nav">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#" onclick="openModal('salesModal'); return false;">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-head">Support</div>
+                    <ul class="footer-nav">
+                        <li><a href="#">Support Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">API Status</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom-bar">
+                <div>© 2026 Construction Intelligence Hub. All Rights Reserved.</div>
+                <div style="display: flex; gap: 20px;">
+                    <span>🌐 Global (EN)</span>
+                    <span>♿ Accessibility</span>
+                    <span>🛡️ SOC2 Certified</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- INTERACTIVE MODAL DIALOGS -->
+    <div class="modal-overlay" id="costModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('costModal')">✕</button>
+            <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 8px;">📊 AI Budget Forecast Simulator</h3>
+            <p style="font-size: 13px; color: #64748B; margin-bottom: 20px;">Calculate cost risk variance based on raw material fluctuations.</p>
+            <div class="form-group">
+                <label class="form-label">Base Project Budget ($)</label>
+                <input type="number" class="form-input" id="budgetInput" value="25000000" oninput="recalculateCost()">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Material Price Inflation (%)</label>
+                <input type="range" min="0" max="30" value="12" style="width: 100%;" id="volatilityInput" oninput="recalculateCost()">
+            </div>
+            <div style="background: #EFF6FF; border-radius: 12px; padding: 16px; margin-top: 16px;">
+                <div style="font-size: 12px; color: #1D4ED8; font-weight: 700;">PREDICTED OVERRUN RISK</div>
+                <div style="font-size: 24px; font-weight: 800; color: #0F172A;" id="overrunOutput">+$2,250,000</div>
+                <div style="font-size: 12px; color: #10B981; font-weight: 600; margin-top: 4px;">Confidence Accuracy: 98.4%</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="materialModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('materialModal')">✕</button>
+            <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 8px;">📦 Live RFID & Camera Stream</h3>
+            <p style="font-size: 13px; color: #64748B; margin-bottom: 16px;">Active parcel feed for Site Zone 4.</p>
+            <table style="width: 100%; font-size: 12px; text-align: left; border-collapse: collapse;">
+                <tr style="border-bottom: 1px solid #E2E8F0; color: #64748B;">
+                    <th style="padding: 8px 0;">Item Description</th>
+                    <th>Location</th>
+                    <th>Status</th>
+                </tr>
+                <tr style="border-bottom: 1px solid #F1F5F9;">
+                    <td style="padding: 10px 0;">Structural Steel Beams</td>
+                    <td>Zone 4 Crane B</td>
+                    <td style="color: #10B981; font-weight: 700;">🟢 On-Site</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #F1F5F9;">
+                    <td style="padding: 10px 0;">Ready-Mix Concrete</td>
+                    <td>Gate 2 Transit</td>
+                    <td style="color: #F59E0B; font-weight: 700;">🟡 In Transit</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px 0;">Double-Pane Facade Glass</td>
+                    <td>Bay A Warehouse</td>
+                    <td style="color: #10B981; font-weight: 700;">🟢 Staged</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="riskModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('riskModal')">✕</button>
+            <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 8px;">⚠️ Site Safety & Risk Audit</h3>
+            <div style="background: #1E293B; color: #FFF; padding: 16px; border-radius: 14px; margin: 16px 0;">
+                <div style="font-size: 12px; color: #94A3B8;">SITE COMPLIANCE SCORE</div>
+                <div style="font-size: 32px; font-weight: 800; color: #10B981;">96 / 100</div>
+                <div style="font-size: 12px; color: #CBD5E1; margin-top: 6px;">✓ Zero major safety anomalies detected across 42 active sensors.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="equipModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('equipModal')">✕</button>
+            <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 8px;">🚜 Equipment Telemetry HUD</h3>
+            <p style="font-size: 13px; color: #64748B; margin-bottom: 16px;">CAT 349 Excavator (Unit #EX-09)</p>
+            <div style="display: flex; gap: 16px;">
+                <div style="flex: 1; background: #F8FAFC; padding: 14px; border-radius: 12px; text-align: center;">
+                    <div style="font-size: 11px; color: #64748B;">ENGINE HEALTH</div>
+                    <div style="font-size: 22px; font-weight: 800; color: #1D4ED8;">99%</div>
+                </div>
+                <div style="flex: 1; background: #F8FAFC; padding: 14px; border-radius: 12px; text-align: center;">
+                    <div style="font-size: 11px; color: #64748B;">PREDICTIVE MAINT.</div>
+                    <div style="font-size: 22px; font-weight: 800; color: #10B981;">In 280 hrs</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="demoModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('demoModal')">✕</button>
+            <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 8px;">🎯 Request Enterprise Demo</h3>
+            <p style="font-size: 13px; color: #64748B; margin-bottom: 20px;">Get a personalized walk-through of the CIH AI platform.</p>
+            <div class="form-group">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-input" placeholder="John Doe">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Work Email</label>
+                <input type="email" class="form-input" placeholder="john@constructioncorp.com">
+            </div>
+            <button class="btn-primary" style="width: 100%; justify-content: center; margin-top: 10px;" onclick="alert('Thank you! Our enterprise team will contact you within 2 hours.'); closeModal('demoModal');">Submit Request</button>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="salesModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('salesModal')">✕</button>
+            <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 8px;">📞 Contact Sales</h3>
+            <p style="font-size: 13px; color: #64748B; margin-bottom: 20px;">Speak with an infrastructure AI specialist.</p>
+            <div class="form-group">
+                <label class="form-label">Work Email</label>
+                <input type="email" class="form-input" placeholder="sales@yourfirm.com">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Message</label>
+                <textarea class="form-input" rows="3" placeholder="Tell us about your active projects..."></textarea>
+            </div>
+            <button class="btn-primary" style="width: 100%; justify-content: center;" onclick="alert('Your message has been sent to our sales team!'); closeModal('salesModal');">Send Message</button>
+        </div>
+
+    </div>
+
+    <script src="js/data.js?v=30.0"></script>
+    <script src="js/main.js?v=30.0"></script>
+</body>
+</html>
+
+
+
+

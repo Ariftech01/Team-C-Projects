@@ -1,0 +1,11 @@
+id,name,category,rfid_tag,stock_quantity,reorder_level,status,assigned_project,supplier,utilization_percent
+MAT-INV-01,Structural Steel Beams (Grade A572),Steel & Rebar,RFID-ST-402,4200 Tons,1000 Tons,In Stock,Delhi Metro - Phase 4,Jindal Steel & Power,78
+MAT-INV-02,High-Tensile Rebar Bundles (#25),Steel & Rebar,RFID-RB-108,2100 Tons,500 Tons,In Stock,Delhi Metro - Phase 4,Tata Steel,82
+MAT-INV-03,Tunnel Segment Concrete Rings,Concrete,RFID-CR-901,1450 Rings,300 Rings,In Stock,Delhi Metro - Phase 4,L&T Construction,90
+MAT-INV-04,Ready-Mix Concrete (Batch C50 Marine),Concrete,RFID-RC-881,12500 cu m,3000 cu m,In Stock,Mumbai Trans Harbour Link,UltraTech Concrete,85
+MAT-INV-05,Anti-Corrosive Epoxy Steel Strands,Steel & Rebar,RFID-ES-204,3800 Tons,800 Tons,In Stock,Mumbai Trans Harbour Link,JSW Steel,74
+MAT-INV-06,High-Tensile Rebar Bundles (#22),Steel & Rebar,RFID-RB-109,350 Tons,500 Tons,Low Stock,Indore Smart City Hub,Tata Steel,92
+MAT-INV-07,Portland Pozzolana Cement Bags,Cement,RFID-CM-330,450 Bags,1000 Bags,Low Stock,Indore Smart City Hub,Ambuja Cement,95
+MAT-INV-08,Double-Pane Facade Glass Panels,Glazing & Finishing,RFID-GL-552,1800 Panels,400 Panels,In Stock,International Terminal Exp.,Saint-Gobain,64
+MAT-INV-09,Structural Aluminum Truss Columns,Steel & Rebar,RFID-AL-882,620 Units,150 Units,In Stock,International Terminal Exp.,Hindalco Industries,71
+MAT-INV-10,High-Grade Bitumen Asphalt (VG-40),Paving,RFID-BT-603,1200 Drums,300 Drums,In Stock,Chennai Coastal Expressway Ph-2,Indian Oil Corporation,60

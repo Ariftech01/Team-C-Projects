@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIH | Project Performance & Audit Reports</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏗️</text></svg>">
+</head>
+<body style="background: #F8FAFC; margin: 0; padding: 0;">
+
+    <div class="dash-app">
+        <!-- TOP GLOBAL HEADER -->   
+        <header class="dash-header">
+            <div class="dash-header-left">
+                <a href="index.html" class="logo" title="Back to Landing Page">
+                    <span class="logo-dot"></span> CIH
+                </a>
+            </div>
+
+            <div class="dash-header-right">
+                <button class="icon-btn" title="Toggle Light/Dark Theme">☀️</button>
+                <div style="position: relative;">
+                    <button class="icon-btn" title="Notifications">🔔</button>
+                    <span style="position: absolute; top: 2px; right: 2px; width: 8px; height: 8px; background: #EF4444; border-radius: 50%; border: 2px solid #FFF;"></span>
+                </div>
+                <div class="dash-user-profile" onclick="window.location.href='profile.html'" style="cursor: pointer;" title="View User Profile & Account Settings">
+                    <div>
+                        <div class="dash-user-name">Alex Sterling</div>
+                        <div class="dash-user-role">Project Director</div>
+                    </div>
+                    <div class="dash-user-avatar">AS</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- LEFT SIDEBAR -->
+        <aside class="dash-sidebar">
+            <ul class="dash-menu">
+                <li><a href="dashboard.html" class="dash-menu-item">📊 Dashboard</a></li>
+                <li><a href="project-management.html" class="dash-menu-item">🏗️ Project Management</a></li>
+                <li><a href="team-management.html" class="dash-menu-item">👥 Team Management</a></li>
+                <li><a href="budget.html" class="dash-menu-item">💵 Budget</a></li>
+                <li><a href="materials.html" class="dash-menu-item">📦 Materials</a></li>
+                <li><a href="risk-analysis.html" class="dash-menu-item">⚠️ Risk Analysis</a></li>
+                <li><a href="reports.html" class="dash-menu-item active">📊 Reports</a></li>
+                <li><a href="ai-insights.html" class="dash-menu-item">🤖 AI Insights</a></li>
+            </ul>
+
+
+        </aside>
+
+        <!-- MAIN REPORTS CONTENT -->
+        <main class="dash-main">
+            <div class="dash-top-title-row">
+                <div>
+                    <h1 class="dash-page-title">Project Performance & Audit Reports</h1>
+                    <p class="dash-page-sub">Generate, inspect, and export compliance, financial, and site safety reports across active job sites.</p>
+                </div>
+            </div>
+
+            <!-- REPORTS KPI CARDS GRID -->
+            <div class="kpi-cards-grid" style="grid-template-columns: repeat(4, 1fr); margin-bottom: 28px;">
+                <div class="kpi-card">
+                    <div class="kpi-card-header">
+                        <div class="kpi-icon-box" style="background: #EEF2FF; color: #4F46E5;">📊</div>
+                        <span class="kpi-badge badge-green">Archive Ready</span>
+                    </div>
+                    <div class="kpi-card-body">
+                        <div class="kpi-label">TOTAL REPORTS GENERATED</div>
+                        <div class="kpi-value" id="kpiRepTotal">—</div>
+                    </div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-card-header">
+                        <div class="kpi-icon-box" style="background: #E0F2FE; color: #0284C7;">🛡️</div>
+                        <span class="kpi-badge badge-green">98.4% Score</span>
+                    </div>
+                    <div class="kpi-card-body">
+                        <div class="kpi-label">VERIFIED COMPLIANCE</div>
+                        <div class="kpi-value" id="kpiRepVerified" style="color: #10B981;">—</div>
+                    </div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-card-header">
+                        <div class="kpi-icon-box" style="background: #FEF3C7; color: #D97706;">⚠️</div>
+                        <span class="kpi-badge badge-green">✓ All Clear</span>
+                    </div>
+                    <div class="kpi-card-body">
+                        <div class="kpi-label">DISCREPANCIES FLAGGED</div>
+                        <div class="kpi-value" id="kpiRepFlags" style="color: #059669;">—</div>
+                    </div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-card-header">
+                        <div class="kpi-icon-box" style="background: #DCFCE7; color: #15803D;">📥</div>
+                        <span class="kpi-badge badge-green">Export Active</span>
+                    </div>
+                    <div class="kpi-card-body">
+                        <div class="kpi-label">DOWNLOAD ACTIVITY</div>
+                        <div class="kpi-value" id="kpiRepExports" style="color: #2563EB;">—</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PERFORMANCE ANALYTICS CHARTS (KEPT INTACT) -->
+            <div class="analytics-container" style="margin-bottom: 28px;">
+                <div class="analytics-header">
+                    <div>
+                        <h2 class="analytics-title">📊 Performance & Schedule Variance Analytics</h2>
+                        <div class="analytics-sub">Comparative velocity, milestones, and capital utilization across active sites</div>
+                    </div>
+                </div>
+
+                <div>
+                    <!-- CHART: MILESTONE PROGRESS COMPARISON -->
+                    <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 18px;">
+                        <h3 style="font-size: 14px; font-weight: 700; color: #1E293B; margin: 0 0 14px 0;">🏗️ Project Milestone Completion Progress</h3>
+                        <div id="reportsMilestoneChart" style="display: flex; flex-direction: column; gap: 12px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI REPORT GENERATOR SECTION (BELOW CHARTS) -->
+            <div class="analytics-container" style="margin-bottom: 28px;">
+                <div class="analytics-header">
+                    <div>
+                        <h2 class="analytics-title">🤖 AI Executive Report Generator</h2>
+                        <div class="analytics-sub">Generate comprehensive, business-ready reports summarizing progress, budget, risks, materials, and team performance</div>
+                    </div>
+                </div>
+
+                <!-- CONTROLS: PROJECT & REPORT FREQUENCY SELECTORS -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr 180px; gap: 16px; align-items: flex-end; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
+                    <div>
+                        <label class="form-label" style="font-weight: 700;">1. Select Project Site *</label>
+                        <select class="form-input" id="aiReportProjectSelect" style="background: #FFFFFF;">
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="form-label" style="font-weight: 700;">2. Select Report Type *</label>
+                        <select class="form-input" id="aiReportFrequency" style="background: #FFFFFF;">
+                            <option value="Daily Report">📅 Daily Report</option>
+                            <option value="Weekly Report" selected>📆 Weekly Report</option>
+                            <option value="Monthly Report">🗓️ Monthly Report</option>
+                            <option value="Custom Report">📋 Custom Report</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <button class="btn-primary" style="width: 100%; justify-content: center; padding: 11px;" onclick="triggerAIReportGeneration()">
+                            🤖 Generate Report
+                        </button>
+                    </div>
+                </div>
+
+                <!-- AI REPORT OUTPUT CONTAINER -->
+                <div id="aiReportOutputBox" style="display: none;">
+                    <!-- Dynamically populated by main.js triggerAIReportGeneration() -->
+                </div>
+            </div>
+
+            <div class="analytics-container" style="margin-bottom: 28px;">
+                <div class="analytics-header" style="margin-bottom: 16px;">
+                    <div>
+                        <h2 class="analytics-title">Archived Site Reports</h2>
+                        <div class="analytics-sub">Generated from the live dataset and linked by projectId</div>
+                    </div>
+                    <button class="kpi-btn-secondary" onclick="openModal('addReportModal')">+ New Report</button>
+                </div>
+                <table class="cih-data-table" style="width: 100%;">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>Project</th>
+                            <th>Type</th>
+                            <th>Format</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="reportsTableBody"></tbody>
+                </table>
+            </div>
+
+        </main>
+
+        <!-- DASHBOARD FOOTER -->
+        <footer class="dash-footer">
+            <div>CIH Platform &copy; 2026 Construction Intelligence Hub. All Rights Reserved.</div>
+            <div style="display: flex; gap: 20px;">
+                <a href="#" style="color: #64748B; text-decoration: none;">Support</a>
+                <a href="#" style="color: #64748B; text-decoration: none;">Privacy Policy</a>
+                <a href="#" style="color: #64748B; text-decoration: none;">Terms of Service</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- GENERATE REPORT MODAL -->
+    <div class="modal-overlay" id="addReportModal">
+        <div class="modal-content" style="max-width: 560px;">
+            <button class="modal-close" onclick="closeModal('addReportModal')">✕</button>
+            <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 4px;">📊 Generate Custom Project Report</h3>
+            <p style="font-size: 13px; color: #64748B; margin-bottom: 20px;">Compile site telemetry, safety metrics, and financial audits into an exportable document.</p>
+
+            <div class="form-group">
+                <label class="form-label">Report Title *</label>
+                <input type="text" class="form-input" id="newRepTitle" placeholder="e.g. Q3 Site Safety & Materials Audit">
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+                <div class="form-group">
+                    <label class="form-label">Report Type</label>
+                    <select class="form-input" id="newRepType">
+                        <option value="Safety Audit">Safety Audit</option>
+                        <option value="Financial Audit">Financial Audit</option>
+                        <option value="Material Stream">Material Stream</option>
+                        <option value="Equipment Audit">Equipment Audit</option>
+                        <option value="Site Performance" selected>Site Performance</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Target Project Site</label>
+                    <select class="form-input" id="newRepProj">
+                    </select>
+                </div>
+
+                <div class="form-group" style="grid-column: span 2;">
+                    <label class="form-label">Export Format</label>
+                    <select class="form-input" id="newRepFormat">
+                        <option value="PDF" selected>📄 Portable Document Format (PDF)</option>
+                        <option value="CSV">📊 Comma Separated Values (CSV)</option>
+                        <option value="JSON">⚙️ JavaScript Object Notation (JSON)</option>
+                    </select>
+                </div>
+            </div>
+
+            <button class="btn-primary" style="width: 100%; justify-content: center; margin-top: 10px; padding: 12px;" onclick="handleCreateReport()">Generate & Export Report</button>
+        </div>
+    </div>
+
+    <!-- PROJECT WORKSPACE DETAIL MODAL -->
+    <div class="modal-overlay" id="projectDetailModal">
+        <div class="modal-content" style="max-width: 680px; max-height: 90vh; overflow-y: auto;" id="projectDetailContent">
+            <!-- Dynamically populated by main.js handleOpenProject() -->
+        </div>
+    </div>
+
+    <!-- GLOBAL FLOATING AI CHATBOT WIDGET -->
+    <button class="cih-floating-widget-btn" onclick="toggleAIChat()" title="Open Local AI Chatbot (Llama 3.2)">🤖</button>
+    <div class="cih-chat-window" id="cihFloatingChatWindow" style="display: none;">
+        <div class="cih-chat-header">
+            <div>
+                <div class="cih-chat-header-title">🤖 CIH AI Assistant</div>
+                <div class="cih-chat-header-sub">Powered by Llama 3.2 (Offline Engine)</div>
+            </div>
+            <button style="background: none; border: none; color: #FFF; font-size: 18px; cursor: pointer;" onclick="toggleAIChat()">✕</button>
+        </div>
+        <div class="cih-chat-body" id="cihFloatingChatBody">
+            <div class="chat-bubble chat-bubble-ai">
+                Hello! I am your local AI assistant running offline via **Llama 3.2**. Ask me any question about your active construction projects, budget risks, or material stock!
+            </div>
+        </div>
+        <div class="cih-chat-footer">
+            <input type="text" class="cih-chat-input" id="cihFloatingChatInput" placeholder="Ask AI assistant..." onkeypress="if(event.key==='Enter') sendFloatingChatMessage()">
+            <button class="cih-chat-send" onclick="sendFloatingChatMessage()">Send</button>
+        </div>
+    </div>
+
+    <!-- AI MODULE SCRIPTS -->
+    <script src="ai/config.js?v=7.0"></script>
+    <script src="ai/ollama_client.js?v=30.0"></script>
+    <script src="ai/prompt_manager.js?v=30.0"></script>
+    <script src="ai/utils.js?v=7.0"></script>
+    <script src="ai/ai_service.js?v=30.0"></script>
+
+    <!-- APP CORE SCRIPTS -->
+    <script src="js/data.js?v=30.0"></script>
+    <script src="js/main.js?v=30.0"></script>
+</body>
+</html>

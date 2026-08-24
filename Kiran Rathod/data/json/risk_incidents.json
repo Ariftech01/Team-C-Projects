@@ -1,0 +1,112 @@
+[
+  {
+    "incident_id": "RSK-901",
+    "project_name": "Indore Smart City Hub",
+    "risk_category": "Material Shortage",
+    "risk_level": "High",
+    "description": "Critical rebar bundle stock below safety threshold (350 tons vs 500 tons min).",
+    "predicted_delay_days": 12,
+    "impact_cost_crores": 14.5,
+    "mitigation_status": "Procurement Expedited",
+    "detection_timestamp": "2026-07-26 14:30:00"
+  },
+  {
+    "incident_id": "RSK-902",
+    "project_name": "Hyderabad Outer Ring Supergrid",
+    "risk_category": "Equipment Breakdown",
+    "risk_level": "High",
+    "description": "Tandem Roller engine health at 81% with severe hydraulic pressure drops.",
+    "predicted_delay_days": 18,
+    "impact_cost_crores": 22.0,
+    "mitigation_status": "Maintenance Scheduled",
+    "detection_timestamp": "2026-07-25 09:15:00"
+  },
+  {
+    "incident_id": "RSK-903",
+    "project_name": "Mumbai Trans Harbour Link",
+    "risk_category": "Weather & Monsoon Surge",
+    "risk_level": "Medium",
+    "description": "High tide and coastal wind gusts exceeding 45 knots near Pier 14.",
+    "predicted_delay_days": 4,
+    "impact_cost_crores": 5.2,
+    "mitigation_status": "Crane Work Paused",
+    "detection_timestamp": "2026-07-24 16:45:00"
+  },
+  {
+    "incident_id": "RSK-904",
+    "project_name": "Delhi Metro - Phase 4",
+    "risk_category": "Air Quality Cutoff",
+    "risk_level": "Low",
+    "description": "AQI spike requiring dust suppression spray activation across Zone 3.",
+    "predicted_delay_days": 1,
+    "impact_cost_crores": 0.8,
+    "mitigation_status": "Water Sprinklers Active",
+    "detection_timestamp": "2026-07-23 11:20:00"
+  },
+  {
+    "incident_id": "RSK-905",
+    "project_name": "Ahmedabad High Speed Bullet Rail",
+    "risk_category": "Right of Way Land Access",
+    "risk_level": "Medium",
+    "description": "Minor delay in utility pole relocation along Sector 4 alignment.",
+    "predicted_delay_days": 6,
+    "impact_cost_crores": 8.0,
+    "mitigation_status": "Municipal Clearance Pending",
+    "detection_timestamp": "2026-07-22 13:10:00"
+  },
+  {
+    "incident_id": "RSK-906",
+    "project_name": "Chenab Railway Bridge Corridor",
+    "risk_category": "Thermal Expansion Stress",
+    "risk_level": "Medium",
+    "description": "Arch joint thermal variance detected by optical fiber strain sensors.",
+    "predicted_delay_days": 3,
+    "impact_cost_crores": 3.5,
+    "mitigation_status": "Joint Lock Re-calibrated",
+    "detection_timestamp": "2026-07-21 08:50:00"
+  },
+  {
+    "incident_id": "RSK-907",
+    "project_name": "Navi Mumbai International Airport",
+    "risk_category": "Subgrade Soil Saturation",
+    "risk_level": "Low",
+    "description": "Rainwater retention near taxiway sub-base requiring additional pumping.",
+    "predicted_delay_days": 2,
+    "impact_cost_crores": 1.2,
+    "mitigation_status": "Dewatering Pumps Operating",
+    "detection_timestamp": "2026-07-20 17:00:00"
+  },
+  {
+    "incident_id": "RSK-908",
+    "project_name": "Kolkata Underwater Metro Tunnel",
+    "risk_category": "Micro-Seepage Variance",
+    "risk_level": "Low",
+    "description": "Hooghly riverbed pressure sensor shows minor moisture gradient increase.",
+    "predicted_delay_days": 0,
+    "impact_cost_crores": 0.0,
+    "mitigation_status": "Grouting Verified Safe",
+    "detection_timestamp": "2026-07-19 10:05:00"
+  },
+  {
+    "incident_id": "RSK-909",
+    "project_name": "International Terminal Exp.",
+    "risk_category": "Customs Delay on Glass",
+    "risk_level": "Low",
+    "description": "Second shipment of facade glass panels delayed at port terminal by 48 hrs.",
+    "predicted_delay_days": 2,
+    "impact_cost_crores": 2.1,
+    "mitigation_status": "Customs Cleared",
+    "detection_timestamp": "2026-07-18 15:40:00"
+  },
+  {
+    "incident_id": "RSK-910",
+    "project_name": "Chennai Coastal Expressway Ph-2",
+    "risk_category": "Bitumen Delivery Bottleneck",
+    "risk_level": "Low",
+    "description": "Tanker truck convoy delayed due to coastal highway traffic maintenance.",
+    "predicted_delay_days": 1,
+    "impact_cost_crores": 0.5,
+    "mitigation_status": "Rerouted via Bypass",
+    "detection_timestamp": "2026-07-17 07:30:00"
+  }
+]

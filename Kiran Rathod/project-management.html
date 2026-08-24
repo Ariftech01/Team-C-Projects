@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIH | Project Management</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏗️</text></svg>">
+</head>
+<body style="background: #F8FAFC; margin: 0; padding: 0;">
+
+    <div class="dash-app">
+        <!-- TOP GLOBAL HEADER -->   
+        <header class="dash-header">
+            <div class="dash-header-left">
+                <a href="index.html" class="logo" title="Back to Landing Page">
+                    <span class="logo-dot"></span> CIH
+                </a>
+                <div class="dash-search-container">
+                    <span class="dash-search-icon">🔍</span>
+                    <input type="text" class="dash-search-input" id="projectSearch" placeholder="Search by project or city..." oninput="filterProjects()">
+                </div>
+            </div>
+
+            <div class="dash-header-right">
+                <button class="icon-btn" title="Toggle Light/Dark Theme">☀️</button>
+                <div style="position: relative;">
+                    <button class="icon-btn" title="Notifications">🔔</button>
+                    <span style="position: absolute; top: 2px; right: 2px; width: 8px; height: 8px; background: #EF4444; border-radius: 50%; border: 2px solid #FFF;"></span>
+                </div>
+                <div class="dash-user-profile" onclick="window.location.href='profile.html'" style="cursor: pointer;" title="View User Profile & Account Settings">
+                    <div>
+                        <div class="dash-user-name">Alex Sterling</div>
+                        <div class="dash-user-role">Project Director</div>
+                    </div>
+                    <div class="dash-user-avatar">AS</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- LEFT SIDEBAR -->
+        <aside class="dash-sidebar">
+            <ul class="dash-menu">
+                <li><a href="dashboard.html" class="dash-menu-item">📊 Dashboard</a></li>
+                <li><a href="project-management.html" class="dash-menu-item active">🏗️ Project Management</a></li>
+                <li><a href="team-management.html" class="dash-menu-item">👥 Team Management</a></li>
+                <li><a href="budget.html" class="dash-menu-item">💵 Budget</a></li>
+                <li><a href="materials.html" class="dash-menu-item">📦 Materials</a></li>
+                <li><a href="risk-analysis.html" class="dash-menu-item">⚠️ Risk Analysis</a></li>
+                <li><a href="reports.html" class="dash-menu-item">📊 Reports</a></li>
+                <li><a href="ai-insights.html" class="dash-menu-item">🤖 AI Insights</a></li>
+            </ul>
+
+
+        </aside>
+
+        <!-- MAIN PROJECT MANAGEMENT CONTENT -->
+        <main class="dash-main">
+            <div class="dash-top-title-row">
+                <div>
+                    <h1 class="dash-page-title">Project Management</h1>
+                    <p class="dash-page-sub">Manage, filter, and track all your active major infrastructure projects.</p>
+                </div>
+                <div class="dash-filter-controls">
+                    <button class="dash-btn-filter" onclick="alert('Filter menu opened')">☵ Filter</button>
+                    <button class="dash-btn-filter" onclick="alert('Sorting options: Recent, Budget, Progress')">⇅ Sort: Recent</button>
+                    <button class="btn-primary" style="padding: 9px 20px; font-size: 13px;" onclick="openModal('newProjectModal')">
+                        + New Project
+                    </button>
+                </div>
+            </div>
+
+            <!-- PROJECT CARDS GRID -->
+            <div class="dash-project-grid" id="projectGrid">
+                <!-- Dynamically rendered by js/main.js using CIH_DATASET.projects -->
+            </div>
+
+
+        </main>
+
+        <!-- DASHBOARD FOOTER -->
+        <footer class="dash-footer">
+            <div>CIH Platform &copy; 2026 Construction Intelligence Hub. All Rights Reserved.</div>
+            <div style="display: flex; gap: 20px;">
+                <a href="#" style="color: #64748B; text-decoration: none;">Support</a>
+                <a href="#" style="color: #64748B; text-decoration: none;">Privacy Policy</a>
+                <a href="#" style="color: #64748B; text-decoration: none;">Terms of Service</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- NEW PROJECT MODAL -->
+    <div class="modal-overlay" id="newProjectModal">
+        <div class="modal-content" style="max-width: 600px; max-height: 90vh; overflow-y: auto;">
+            <button class="modal-close" onclick="closeModal('newProjectModal')">✕</button>
+            <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 4px;">➕ Create New Infrastructure Project</h3>
+            <p style="font-size: 13px; color: #64748B; margin-bottom: 20px;">Initialize AI telemetry and track real-time metrics for a new job site.</p>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+                <div class="form-group" style="grid-column: span 2;">
+                    <label class="form-label">Project Name *</label>
+                    <input type="text" class="form-input" id="newProjName" placeholder="e.g. Hyderabad Metro Line 3">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Category / Sector</label>
+                    <select class="form-input" id="newProjCategory">
+                        <option value="transit">🚆 Transit & Railway</option>
+                        <option value="highway">🛣️ Highway & Bridges</option>
+                        <option value="commercial">🏢 Commercial Hub</option>
+                        <option value="airport">✈️ Airport & Aviation</option>
+                        <option value="infrastructure" selected>🏗️ Infrastructure</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Location / City</label>
+                    <input type="text" class="form-input" id="newProjCity" placeholder="e.g. Hyderabad, India">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Project Status</label>
+                    <select class="form-input" id="newProjStatus">
+                        <option value="In Progress" selected>🟢 In Progress</option>
+                        <option value="Planning">🟡 Planning</option>
+                        <option value="On Hold">🔴 On Hold</option>
+                        <option value="Completed">✅ Completed</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Estimated Budget (₹ Cr)</label>
+                    <input type="number" class="form-input" id="newProjBudget" placeholder="e.g. 5000">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Target Completion Date</label>
+                    <input type="date" class="form-input" id="newProjDeadline">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Initial Progress (%)</label>
+                    <input type="number" class="form-input" id="newProjProgress" min="0" max="100" placeholder="10" value="10">
+                </div>
+
+                <div class="form-group" style="grid-column: span 2;">
+                    <label class="form-label">Project Lead / Director</label>
+                    <input type="text" class="form-input" id="newProjLead" placeholder="e.g. Alex Sterling">
+                </div>
+
+                <div class="form-group" style="grid-column: span 2;">
+                    <label class="form-label">Scope & Key Highlights</label>
+                    <textarea class="form-input" id="newProjDesc" rows="2" placeholder="Brief details regarding materials, site scope, and timeline..."></textarea>
+                </div>
+            </div>
+
+            <button class="btn-primary" style="width: 100%; justify-content: center; margin-top: 10px; padding: 12px;" onclick="handleCreateNewProject()">Create Project</button>
+        </div>
+    </div>
+
+    <!-- PROJECT WORKSPACE DETAIL MODAL -->
+    <div class="modal-overlay" id="projectDetailModal">
+        <div class="modal-content" style="max-width: 680px; max-height: 90vh; overflow-y: auto;" id="projectDetailContent">
+            <!-- Dynamically populated by main.js handleOpenProject() -->
+        </div>
+    </div>
+
+    <!-- GLOBAL FLOATING AI CHATBOT WIDGET -->
+    <button class="cih-floating-widget-btn" onclick="toggleAIChat()" title="Open Local AI Chatbot (Llama 3.2)">🤖</button>
+    <div class="cih-chat-window" id="cihFloatingChatWindow" style="display: none;">
+        <div class="cih-chat-header">
+            <div>
+                <div class="cih-chat-header-title">🤖 CIH AI Assistant</div>
+                <div class="cih-chat-header-sub">Powered by Llama 3.2 (Offline Engine)</div>
+            </div>
+            <button style="background: none; border: none; color: #FFF; font-size: 18px; cursor: pointer;" onclick="toggleAIChat()">✕</button>
+        </div>
+        <div class="cih-chat-body" id="cihFloatingChatBody">
+            <div class="chat-bubble chat-bubble-ai">
+                Hello! I am your local AI assistant running offline via **Llama 3.2**. Ask me any question about your active construction projects, budget risks, or material stock!
+            </div>
+        </div>
+        <div class="cih-chat-footer">
+            <input type="text" class="cih-chat-input" id="cihFloatingChatInput" placeholder="Ask AI assistant..." onkeypress="if(event.key==='Enter') sendFloatingChatMessage()">
+            <button class="cih-chat-send" onclick="sendFloatingChatMessage()">Send</button>
+        </div>
+    </div>
+
+    <!-- AI MODULE SCRIPTS -->
+    <script src="ai/config.js?v=4.0"></script>
+    <script src="ai/ollama_client.js?v=30.0"></script>
+    <script src="ai/prompt_manager.js?v=30.0"></script>
+    <script src="ai/utils.js?v=4.0"></script>
+    <script src="ai/ai_service.js?v=30.0"></script>
+
+    <!-- APP CORE SCRIPTS -->
+    <script src="js/data.js?v=30.0"></script>
+    <script src="js/main.js?v=30.0"></script>
+</body>
+</html>

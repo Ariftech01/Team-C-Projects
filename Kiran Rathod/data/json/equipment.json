@@ -1,0 +1,122 @@
+[
+  {
+    "equipment_id": "EQ-101",
+    "asset_name": "CAT 349 Heavy Hydraulic Excavator",
+    "unit_code": "EXC-DEL-09",
+    "assigned_project_id": "Delhi Metro - Phase 4",
+    "engine_health_pct": 99,
+    "operating_hours": 1420,
+    "fuel_rate_lph": "14.2 L/hr",
+    "maintenance_due_hrs": 280,
+    "status": "Optimal",
+    "operator": "Suresh Patil"
+  },
+  {
+    "equipment_id": "EQ-102",
+    "asset_name": "Liebherr LTM 1250 Mobile Crane",
+    "unit_code": "CRN-MUM-02",
+    "assigned_project_id": "Mumbai Trans Harbour Link",
+    "engine_health_pct": 96,
+    "operating_hours": 2150,
+    "fuel_rate_lph": "18.5 L/hr",
+    "maintenance_due_hrs": 140,
+    "status": "Optimal",
+    "operator": "Ramesh Sharma"
+  },
+  {
+    "equipment_id": "EQ-103",
+    "asset_name": "Komatsu WA470 Wheel Loader",
+    "unit_code": "LDR-IND-04",
+    "assigned_project_id": "Indore Smart City Hub",
+    "engine_health_pct": 74,
+    "operating_hours": 3890,
+    "fuel_rate_lph": "12.8 L/hr",
+    "maintenance_due_hrs": 35,
+    "status": "Service Due",
+    "operator": "Amit Verma"
+  },
+  {
+    "equipment_id": "EQ-104",
+    "asset_name": "Putzmeister Concrete Boom Pump 42Z",
+    "unit_code": "PMP-BLR-01",
+    "assigned_project_id": "International Terminal Exp.",
+    "engine_health_pct": 92,
+    "operating_hours": 980,
+    "fuel_rate_lph": "16.0 L/hr",
+    "maintenance_due_hrs": 410,
+    "status": "Optimal",
+    "operator": "Kiran R."
+  },
+  {
+    "equipment_id": "EQ-105",
+    "asset_name": "Hitachi ZX350LC-6 Excavator",
+    "unit_code": "EXC-SUR-03",
+    "assigned_project_id": "Ahmedabad High Speed Bullet Rail",
+    "engine_health_pct": 88,
+    "operating_hours": 1850,
+    "fuel_rate_lph": "15.1 L/hr",
+    "maintenance_due_hrs": 190,
+    "status": "Optimal",
+    "operator": "Dinesh Kumar"
+  },
+  {
+    "equipment_id": "EQ-106",
+    "asset_name": "Sany SCC8000A Crawler Crane 800T",
+    "unit_code": "CRN-J&K-01",
+    "assigned_project_id": "Chenab Railway Bridge Corridor",
+    "engine_health_pct": 91,
+    "operating_hours": 2900,
+    "fuel_rate_lph": "22.4 L/hr",
+    "maintenance_due_hrs": 210,
+    "status": "Optimal",
+    "operator": "Tariq Ahmed"
+  },
+  {
+    "equipment_id": "EQ-107",
+    "asset_name": "Volvo A40G Articulated Hauler",
+    "unit_code": "HLR-NMB-07",
+    "assigned_project_id": "Navi Mumbai International Airport",
+    "engine_health_pct": 68,
+    "operating_hours": 4200,
+    "fuel_rate_lph": "19.8 L/hr",
+    "maintenance_due_hrs": 15,
+    "status": "Service Due",
+    "operator": "Pravin Naik"
+  },
+  {
+    "equipment_id": "EQ-108",
+    "asset_name": "Dynapac CC6200 VI Tandem Roller",
+    "unit_code": "RLR-HYD-02",
+    "assigned_project_id": "Hyderabad Outer Ring Supergrid",
+    "engine_health_pct": 81,
+    "operating_hours": 1600,
+    "fuel_rate_lph": "9.5 L/hr",
+    "maintenance_due_hrs": 120,
+    "status": "Optimal",
+    "operator": "Venkatesh Rao"
+  },
+  {
+    "equipment_id": "EQ-109",
+    "asset_name": "Herrenknecht Tunnel Boring Machine (TBM)",
+    "unit_code": "TBM-KOL-01",
+    "assigned_project_id": "Kolkata Underwater Metro Tunnel",
+    "engine_health_pct": 95,
+    "operating_hours": 5100,
+    "fuel_rate_lph": "45.0 L/hr",
+    "maintenance_due_hrs": 350,
+    "status": "Optimal",
+    "operator": "Subhash Banerjee"
+  },
+  {
+    "equipment_id": "EQ-110",
+    "asset_name": "Vögele Super 2100-3 Asphalt Paver",
+    "unit_code": "PVR-CHE-05",
+    "assigned_project_id": "Chennai Coastal Expressway Ph-2",
+    "engine_health_pct": 89,
+    "operating_hours": 1250,
+    "fuel_rate_lph": "13.6 L/hr",
+    "maintenance_due_hrs": 250,
+    "status": "Optimal",
+    "operator": "Murugan K."
+  }
+]

@@ -1,0 +1,9 @@
+# Construction Intelligent Hub (CIH) - Dependencies & Server Setup
+# Optional Python web server and backend dependencies
+
+# Web framework and HTTP client (optional backend integration)
+flask>=3.0.0
+requests>=2.31.0
+
+# Ollama Python client for local AI model interaction (optional)
+ollama>=0.1.0

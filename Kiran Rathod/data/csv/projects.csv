@@ -1,0 +1,11 @@
+id,title,city,status,budget_crores,formatted_budget,deadline,progress_percent,total_team_count,risk_level
+PROJ-101,Delhi Metro - Phase 4,New Delhi India,On Track,4200,₹4200 Cr,2025-10-24,68,15,Low
+PROJ-102,Mumbai Trans Harbour Link,Mumbai India,In Review,18000,₹18000 Cr,2024-12-15,92,10,Medium
+PROJ-103,Indore Smart City Hub,Indore India,Delayed,850,₹850 Cr,2026-01-10,35,6,High
+PROJ-104,International Terminal Exp.,Bangalore India,On Track,12400,₹12400 Cr,2025-08-30,52,26,Low
+PROJ-105,Ahmedabad High Speed Bullet Rail,Surat India,On Track,24500,₹24500 Cr,2027-03-15,41,32,Medium
+PROJ-106,Chenab Railway Bridge Corridor,Reasi Jammu & Kashmir,In Review,1480,₹1480 Cr,2024-11-30,88,18,Medium
+PROJ-107,Navi Mumbai International Airport,Navi Mumbai India,On Track,16700,₹16700 Cr,2025-12-31,60,40,Low
+PROJ-108,Hyderabad Outer Ring Supergrid,Hyderabad India,Delayed,3200,₹3200 Cr,2026-06-20,29,12,High
+PROJ-109,Kolkata Underwater Metro Tunnel,Kolkata India,On Track,8600,₹8600 Cr,2025-05-15,77,22,Low
+PROJ-110,Chennai Coastal Expressway Ph-2,Chennai India,On Track,5100,₹5100 Cr,2026-09-10,45,14,Low

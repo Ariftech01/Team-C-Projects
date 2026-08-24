@@ -1,0 +1,112 @@
+[
+  {
+    "id": "tm-1",
+    "name": "Alex Sterling",
+    "role": "Project Director",
+    "category": "Management",
+    "email": "alex.sterling@cih-hub.com",
+    "phone": "+91 98765 43210",
+    "assignedProject": "Delhi Metro - Phase 4",
+    "status": "Active",
+    "accessLevel": "Admin"
+  },
+  {
+    "id": "tm-2",
+    "name": "Vikram Sharma",
+    "role": "Senior Site Engineer",
+    "category": "Engineering",
+    "email": "vikram.sharma@cih-hub.com",
+    "phone": "+91 98123 45678",
+    "assignedProject": "Mumbai Trans Harbour Link",
+    "status": "Active",
+    "accessLevel": "Engineer"
+  },
+  {
+    "id": "tm-3",
+    "name": "Pooja Deshmukh",
+    "role": "Safety & OSHA Auditor",
+    "category": "Inspection",
+    "email": "pooja.deshmukh@cih-hub.com",
+    "phone": "+91 97654 32109",
+    "assignedProject": "Indore Smart City Hub",
+    "status": "Active",
+    "accessLevel": "Auditor"
+  },
+  {
+    "id": "tm-4",
+    "name": "Ananya Mishra",
+    "role": "Logistics & Supply Director",
+    "category": "Logistics",
+    "email": "ananya.mishra@cih-hub.com",
+    "phone": "+91 96543 21098",
+    "assignedProject": "International Terminal Exp.",
+    "status": "Active",
+    "accessLevel": "Manager"
+  },
+  {
+    "id": "tm-5",
+    "name": "Rajesh Kumar",
+    "role": "Structural Concrete Specialist",
+    "category": "Engineering",
+    "email": "rajesh.kumar@cih-hub.com",
+    "phone": "+91 95432 10987",
+    "assignedProject": "Delhi Metro - Phase 4",
+    "status": "Active",
+    "accessLevel": "Engineer"
+  },
+  {
+    "id": "tm-6",
+    "name": "Siddharth Mehta",
+    "role": "High-Speed Rail Specialist",
+    "category": "Engineering",
+    "email": "siddharth.mehta@cih-hub.com",
+    "phone": "+91 94321 09876",
+    "assignedProject": "Ahmedabad High Speed Bullet Rail",
+    "status": "Active",
+    "accessLevel": "Engineer"
+  },
+  {
+    "id": "tm-7",
+    "name": "Kavita Reddy",
+    "role": "Geotechnical Risk Lead",
+    "category": "Geotechnical",
+    "email": "kavita.reddy@cih-hub.com",
+    "phone": "+91 93210 98765",
+    "assignedProject": "Chenab Railway Bridge Corridor",
+    "status": "Active",
+    "accessLevel": "Lead"
+  },
+  {
+    "id": "tm-8",
+    "name": "Arjun Nair",
+    "role": "Aviation Infrastructure Lead",
+    "category": "Management",
+    "email": "arjun.nair@cih-hub.com",
+    "phone": "+91 92109 87654",
+    "assignedProject": "Navi Mumbai International Airport",
+    "status": "Active",
+    "accessLevel": "Manager"
+  },
+  {
+    "id": "tm-9",
+    "name": "Meera Banerjee",
+    "role": "Tunnel Hydro-Geologist",
+    "category": "Geotechnical",
+    "email": "meera.banerjee@cih-hub.com",
+    "phone": "+91 91098 76543",
+    "assignedProject": "Kolkata Underwater Metro Tunnel",
+    "status": "Active",
+    "accessLevel": "Engineer"
+  },
+  {
+    "id": "tm-10",
+    "name": "Karthik Subramanian",
+    "role": "Highway & Pavement Specialist",
+    "category": "Engineering",
+    "email": "karthik.s@cih-hub.com",
+    "phone": "+91 90987 65432",
+    "assignedProject": "Chennai Coastal Expressway Ph-2",
+    "status": "Active",
+    "accessLevel": "Engineer"
+  }
+]

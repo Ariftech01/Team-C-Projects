@@ -1,0 +1,112 @@
+[
+  {
+    "report_id": "REP-2026-01",
+    "report_title": "AI Site Safety & OSHA Compliance Audit",
+    "report_type": "Safety Audit",
+    "assigned_project_id": "Delhi Metro - Phase 4",
+    "generated_by": "Pooja Deshmukh",
+    "generated_date": "2026-07-22",
+    "file_size_mb": "4.8 MB",
+    "status": "Verified",
+    "format": "PDF"
+  },
+  {
+    "report_id": "REP-2026-02",
+    "report_title": "Q2 Capital Expenditure & Cost Variance Log",
+    "report_type": "Financial Audit",
+    "assigned_project_id": "Mumbai Trans Harbour Link",
+    "generated_by": "Alex Sterling",
+    "generated_date": "2026-07-18",
+    "file_size_mb": "12.4 MB",
+    "status": "Verified",
+    "format": "CSV"
+  },
+  {
+    "report_id": "REP-2026-03",
+    "report_title": "RFID Raw Material Supply Telemetry Stream",
+    "report_type": "Material Stream",
+    "assigned_project_id": "Indore Smart City Hub",
+    "generated_by": "Ananya Mishra",
+    "generated_date": "2026-07-15",
+    "file_size_mb": "8.1 MB",
+    "status": "Generated",
+    "format": "JSON"
+  },
+  {
+    "report_id": "REP-2026-04",
+    "report_title": "Heavy Machinery IoT Telemetry & Engine Health",
+    "report_type": "Equipment Audit",
+    "assigned_project_id": "International Terminal Exp.",
+    "generated_by": "Vikram Sharma",
+    "generated_date": "2026-07-10",
+    "file_size_mb": "6.2 MB",
+    "status": "Verified",
+    "format": "PDF"
+  },
+  {
+    "report_id": "REP-2026-05",
+    "report_title": "High-Speed Rail Viaduct Structural Integrity Audit",
+    "report_type": "Structural Audit",
+    "assigned_project_id": "Ahmedabad High Speed Bullet Rail",
+    "generated_by": "Siddharth Mehta",
+    "generated_date": "2026-07-06",
+    "file_size_mb": "15.3 MB",
+    "status": "Verified",
+    "format": "PDF"
+  },
+  {
+    "report_id": "REP-2026-06",
+    "report_title": "Wind Shear & Thermal Expansion Telemetry Log",
+    "report_type": "Environmental",
+    "assigned_project_id": "Chenab Railway Bridge Corridor",
+    "generated_by": "Kavita Reddy",
+    "generated_date": "2026-07-02",
+    "file_size_mb": "9.7 MB",
+    "status": "Verified",
+    "format": "CSV"
+  },
+  {
+    "report_id": "REP-2026-07",
+    "report_title": "Soil Settlement & Foundation Load Inspection",
+    "report_type": "Geotechnical",
+    "assigned_project_id": "Navi Mumbai International Airport",
+    "generated_by": "Arjun Nair",
+    "generated_date": "2026-06-29",
+    "file_size_mb": "11.0 MB",
+    "status": "Verified",
+    "format": "PDF"
+  },
+  {
+    "report_id": "REP-2026-08",
+    "report_title": "Stormwater Drainage & Flood Risk Prediction",
+    "report_type": "Environmental",
+    "assigned_project_id": "Hyderabad Outer Ring Supergrid",
+    "generated_by": "Pooja Deshmukh",
+    "generated_date": "2026-06-24",
+    "file_size_mb": "5.4 MB",
+    "status": "Generated",
+    "format": "JSON"
+  },
+  {
+    "report_id": "REP-2026-09",
+    "report_title": "Riverbed Water Ingress & Seepage Monitoring Log",
+    "report_type": "Hydro-Audit",
+    "assigned_project_id": "Kolkata Underwater Metro Tunnel",
+    "generated_by": "Meera Banerjee",
+    "generated_date": "2026-06-20",
+    "file_size_mb": "18.6 MB",
+    "status": "Verified",
+    "format": "PDF"
+  },
+  {
+    "report_id": "REP-2026-10",
+    "report_title": "Pavement Thickness & Load Bearing Strength Test",
+    "report_type": "Quality Audit",
+    "assigned_project_id": "Chennai Coastal Expressway Ph-2",
+    "generated_by": "Karthik Subramanian",
+    "generated_date": "2026-06-15",
+    "file_size_mb": "7.2 MB",
+    "status": "Verified",
+    "format": "PDF"
+  }
+]

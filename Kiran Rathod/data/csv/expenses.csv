@@ -1,0 +1,11 @@
+id,title,project,category,amount_crores,formatted_amount,status,date
+EXP-101,Structural Steel Supply Batch #4,Delhi Metro - Phase 4,Materials,420,₹420 Cr,Approved,2026-07-24
+EXP-102,Heavy Machinery Fuel & Telemetry,Mumbai Trans Harbour Link,Equipment,85,₹85 Cr,Approved,2026-07-22
+EXP-103,Site Safety Sensors & Mesh Netting,Indore Smart City Hub,Safety,18,₹18 Cr,Approved,2026-07-19
+EXP-104,Terminal Facade Glass Procurement,International Terminal Exp.,Materials,310,₹310 Cr,Approved,2026-07-15
+EXP-105,Labor & Engineering Payroll Q2,Delhi Metro - Phase 4,Labor,150,₹150 Cr,Approved,2026-07-10
+EXP-106,High-Speed Rail Viaduct Pre-Casting,Ahmedabad High Speed Bullet Rail,Materials,650,₹650 Cr,Approved,2026-07-08
+EXP-107,Abutment Wind Load Sensor Calibration,Chenab Railway Bridge Corridor,Technology,12,₹12 Cr,Approved,2026-07-05
+EXP-108,Runway Bituminous Paving Mobilization,Navi Mumbai International Airport,Paving,280,₹280 Cr,Approved,2026-07-01
+EXP-109,TBM Cutter Head Maintenance & Spares,Kolkata Underwater Metro Tunnel,Equipment,45,₹45 Cr,Approved,2026-06-28
+EXP-110,Coastal Embankment Geosynthetic Layers,Chennai Coastal Expressway Ph-2,Materials,95,₹95 Cr,Approved,2026-06-25

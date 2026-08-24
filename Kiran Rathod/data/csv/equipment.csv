@@ -1,0 +1,11 @@
+equipment_id,asset_name,unit_code,assigned_project_id,engine_health_pct,operating_hours,fuel_rate_lph,maintenance_due_hrs,status,operator
+EQ-101,CAT 349 Heavy Hydraulic Excavator,EXC-DEL-09,Delhi Metro - Phase 4,99,1420,14.2 L/hr,280,Optimal,Suresh Patil
+EQ-102,Liebherr LTM 1250 Mobile Crane,CRN-MUM-02,Mumbai Trans Harbour Link,96,2150,18.5 L/hr,140,Optimal,Ramesh Sharma
+EQ-103,Komatsu WA470 Wheel Loader,LDR-IND-04,Indore Smart City Hub,74,3890,12.8 L/hr,35,Service Due,Amit Verma
+EQ-104,Putzmeister Concrete Boom Pump 42Z,PMP-BLR-01,International Terminal Exp.,92,980,16.0 L/hr,410,Optimal,Kiran R.
+EQ-105,Hitachi ZX350LC-6 Excavator,EXC-SUR-03,Ahmedabad High Speed Bullet Rail,88,1850,15.1 L/hr,190,Optimal,Dinesh Kumar
+EQ-106,Sany SCC8000A Crawler Crane 800T,CRN-J&K-01,Chenab Railway Bridge Corridor,91,2900,22.4 L/hr,210,Optimal,Tariq Ahmed
+EQ-107,Volvo A40G Articulated Hauler,HLR-NMB-07,Navi Mumbai International Airport,68,4200,19.8 L/hr,15,Service Due,Pravin Naik
+EQ-108,Dynapac CC6200 VI Tandem Roller,RLR-HYD-02,Hyderabad Outer Ring Supergrid,81,1600,9.5 L/hr,120,Optimal,Venkatesh Rao
+EQ-109,Herrenknecht Tunnel Boring Machine (TBM),TBM-KOL-01,Kolkata Underwater Metro Tunnel,95,5100,45.0 L/hr,350,Optimal,Subhash Banerjee
+EQ-110,Vögele Super 2100-3 Asphalt Paver,PVR-CHE-05,Chennai Coastal Expressway Ph-2,89,1250,13.6 L/hr,250,Optimal,Murugan K.

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "EXP-101",
+    "title": "Structural Steel Supply Batch #4",
+    "project": "Delhi Metro - Phase 4",
+    "category": "Materials",
+    "amount_crores": 420,
+    "formatted_amount": "₹420 Cr",
+    "status": "Approved",
+    "date": "2026-07-24"
+  },
+  {
+    "id": "EXP-102",
+    "title": "Heavy Machinery Fuel & Telemetry",
+    "project": "Mumbai Trans Harbour Link",
+    "category": "Equipment",
+    "amount_crores": 85,
+    "formatted_amount": "₹85 Cr",
+    "status": "Approved",
+    "date": "2026-07-22"
+  },
+  {
+    "id": "EXP-103",
+    "title": "Site Safety Sensors & Mesh Netting",
+    "project": "Indore Smart City Hub",
+    "category": "Safety",
+    "amount_crores": 18,
+    "formatted_amount": "₹18 Cr",
+    "status": "Approved",
+    "date": "2026-07-19"
+  },
+  {
+    "id": "EXP-104",
+    "title": "Terminal Facade Glass Procurement",
+    "project": "International Terminal Exp.",
+    "category": "Materials",
+    "amount_crores": 310,
+    "formatted_amount": "₹310 Cr",
+    "status": "Approved",
+    "date": "2026-07-15"
+  },
+  {
+    "id": "EXP-105",
+    "title": "Labor & Engineering Payroll Q2",
+    "project": "Delhi Metro - Phase 4",
+    "category": "Labor",
+    "amount_crores": 150,
+    "formatted_amount": "₹150 Cr",
+    "status": "Approved",
+    "date": "2026-07-10"
+  },
+  {
+    "id": "EXP-106",
+    "title": "High-Speed Rail Viaduct Pre-Casting",
+    "project": "Ahmedabad High Speed Bullet Rail",
+    "category": "Materials",
+    "amount_crores": 650,
+    "formatted_amount": "₹650 Cr",
+    "status": "Approved",
+    "date": "2026-07-08"
+  },
+  {
+    "id": "EXP-107",
+    "title": "Abutment Wind Load Sensor Calibration",
+    "project": "Chenab Railway Bridge Corridor",
+    "category": "Technology",
+    "amount_crores": 12,
+    "formatted_amount": "₹12 Cr",
+    "status": "Approved",
+    "date": "2026-07-05"
+  },
+  {
+    "id": "EXP-108",
+    "title": "Runway Bituminous Paving Mobilization",
+    "project": "Navi Mumbai International Airport",
+    "category": "Paving",
+    "amount_crores": 280,
+    "formatted_amount": "₹280 Cr",
+    "status": "Approved",
+    "date": "2026-07-01"
+  },
+  {
+    "id": "EXP-109",
+    "title": "TBM Cutter Head Maintenance & Spares",
+    "project": "Kolkata Underwater Metro Tunnel",
+    "category": "Equipment",
+    "amount_crores": 45,
+    "formatted_amount": "₹45 Cr",
+    "status": "Approved",
+    "date": "2026-06-28"
+  },
+  {
+    "id": "EXP-110",
+    "title": "Coastal Embankment Geosynthetic Layers",
+    "project": "Chennai Coastal Expressway Ph-2",
+    "category": "Materials",
+    "amount_crores": 95,
+    "formatted_amount": "₹95 Cr",
+    "status": "Approved",
+    "date": "2026-06-25"
+  }
+]
